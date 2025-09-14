@@ -122,10 +122,6 @@
               사용자 경험(UX)을 최우선으로 하며, 최신 기술 트렌드를 활용하여 혁신적인 웹 서비스와 모바일 애플리케이션을 개발합니다.
             </p>
             <div class="flex gap-4">
-              <a class="px-6 py-3 bg-white border border-emerald-200 text-emerald-600 font-medium rounded-lg hover:bg-emerald-50 transition-colors shadow-sm hover:shadow-md" 
-                 href="mailto:yej431@gmail.com">
-                이메일
-              </a>
               <a class="px-6 py-3 bg-white border border-emerald-200 text-emerald-500 font-medium rounded-lg hover:bg-emerald-50 transition-colors" 
                  href="#contact">
                 연락하기
