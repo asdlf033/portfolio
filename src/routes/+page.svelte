@@ -35,7 +35,7 @@
     frontend: ['React', 'Svelte', 'TypeScript', 'JavaScript'],
     cloud: ['AWS', 'Firebase', 'Docker', 'Jenkins', 'GitHub Actions'],
     database: ['PostgreSQL', 'MySQL', 'SQLite', 'Redis', 'MongoDB'],
-    iot: ['ESP32', '센서 데이터', 'REST API', 'WebSocket'],
+    iot: ['ESP32', 'REST API', 'WebSocket'],
     ai: ['LLM','Ollama', 'OpenAI Whisper', 'RAG']
   };
 
@@ -115,20 +115,20 @@
       <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
         <div class="flex flex-col md:flex-row items-start md:items-center gap-8">
           <div class="flex-1">
-            <h1 class="text-2xl font-bold text-gray-900 mb-2">유은지</h1>
+            <p class="text-2xl font-bold text-gray-900 mb-2">유은지</p>
             <p class="text-lg text-gray-600 mb-4">풀스택 개발자</p>
             <p class="text-gray-700 leading-relaxed mb-6">
               프론트엔드부터 백엔드까지 전체 스택을 다루는 풀스택 개발자입니다.<br>
               사용자 경험(UX)을 최우선으로 하며, 최신 기술 트렌드를 활용하여 혁신적인 웹 서비스와 모바일 애플리케이션을 개발합니다.
             </p>
-            <div class="space-y-2">
+            <div class="flex items-center gap-6">
               <div class="flex items-center gap-3">
                 <div class="w-6 h-6 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
                   <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
                 </div>
-                <a href="mailto:yej431@gmail.com" class="text-emerald-600 hover:text-emerald-700 transition-colors">
+                <a href="mailto:yej431@gmail.com" class="text-gray-400 hover:text-gray-600 transition-colors">
                   yej431@gmail.com
                 </a>
               </div>
@@ -138,8 +138,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                   </svg>
                 </div>
-                <a href="tel:+821012345678" class="text-emerald-600 hover:text-emerald-700 transition-colors">
-                  010-1234-5678
+                <a href="tel:+821012345678" class="text-gray-400 hover:text-gray-600 transition-colors">
+                  010-3371-5287
                 </a>
               </div>
             </div>
