@@ -1,38 +1,82 @@
-# sv
+# Portfolio Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+유은지의 포트폴리오 웹사이트입니다.
 
-## Creating a project
+## 기술 스택
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Frontend**: SvelteKit, TypeScript, Tailwind CSS
+- **Build Tool**: Vite
+- **Deployment**: AWS EC2 + Nginx
 
-```sh
-# create a new project in the current directory
-npx sv create
+## 로컬 개발
 
-# create a new project in my-app
-npx sv create my-app
-```
+```bash
+# 의존성 설치
+npm install
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+# 개발 서버 실행
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# 빌드
+npm run build
+
+# 프로덕션 미리보기
+npm run preview
 ```
 
-## Building
+## AWS 배포
 
-To create a production version of your app:
-
-```sh
+### 1. 빌드
+```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+### 2. 파일 업로드
+빌드된 파일들(`build/` 폴더)을 AWS 서버의 `/var/www/html/` 디렉토리로 업로드합니다.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+### 3. Nginx 설정
+`nginx.conf` 파일을 참고하여 nginx 설정을 구성합니다.
+
+```bash
+# nginx 설정 파일 복사
+sudo cp nginx.conf /etc/nginx/sites-available/srdomain.org
+
+# 심볼릭 링크 생성
+sudo ln -s /etc/nginx/sites-available/srdomain.org /etc/nginx/sites-enabled/
+
+# nginx 설정 테스트
+sudo nginx -t
+
+# nginx 재시작
+sudo systemctl restart nginx
+```
+
+### 4. 도메인 설정
+- `srdomain.org`가 AWS 서버를 가리키도록 DNS 설정
+- SSL 인증서 설정 (Let's Encrypt 권장)
+
+## 프로젝트 구조
+
+```
+src/
+├── lib/
+│   ├── ProjectCard.svelte    # 프로젝트 카드 컴포넌트
+│   └── assets/
+├── routes/
+│   ├── +layout.svelte       # 레이아웃
+│   └── +page.svelte         # 메인 페이지
+└── app.css                  # 글로벌 스타일
+```
+
+## 주요 기능
+
+- 반응형 디자인
+- 프로젝트 포트폴리오 표시
+- 연락처 정보
+- 기술 스택 소개
+- 경력 사항
+- 학력 및 자격증
+
+## 라이센스
+
+Private Repository
