@@ -31,7 +31,7 @@
 
   const skills = {
     mobile: ['Kotlin', 'Swift', 'React Native', 'Flutter', 'Jetpack Compose', 'Health Connect'],
-    backend: ['Java', 'Spring Boot', 'Node.js', 'Express', 'FastAPI', 'C#', 'C++'],
+    backend: ['Java', 'Spring Boot', 'Node.js', 'Express', 'FastAPI'],
     frontend: ['React', 'Svelte', 'TypeScript', 'JavaScript'],
     cloud: ['AWS', 'Firebase', 'Docker', 'Jenkins', 'GitHub Actions'],
     database: ['PostgreSQL', 'MySQL', 'SQLite', 'Redis', 'MongoDB'],
@@ -121,11 +121,27 @@
               프론트엔드부터 백엔드까지 전체 스택을 다루는 풀스택 개발자입니다.<br>
               사용자 경험(UX)을 최우선으로 하며, 최신 기술 트렌드를 활용하여 혁신적인 웹 서비스와 모바일 애플리케이션을 개발합니다.
             </p>
-            <div class="flex gap-4">
-              <a class="px-6 py-3 bg-white border border-emerald-200 text-emerald-500 font-medium rounded-lg hover:bg-emerald-50 transition-colors" 
-                 href="#contact">
-                연락하기
-              </a>
+            <div class="space-y-2">
+              <div class="flex items-center gap-3">
+                <div class="w-6 h-6 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
+                  <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                  </svg>
+                </div>
+                <a href="mailto:yej431@gmail.com" class="text-emerald-600 hover:text-emerald-700 transition-colors">
+                  yej431@gmail.com
+                </a>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-6 h-6 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
+                  <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                  </svg>
+                </div>
+                <a href="tel:+821012345678" class="text-emerald-600 hover:text-emerald-700 transition-colors">
+                  010-1234-5678
+                </a>
+              </div>
             </div>
           </div>
           <div class="grid grid-cols-2 gap-4 text-sm">
@@ -288,40 +304,6 @@
       </div>
     </section>
 
-    <!-- 연락처 섹션 -->
-    <section id="contact" class="mb-10">
-      <h2 class="text-2xl font-bold text-gray-900 mb-3 ml-2">연락처</h2>
-      <div class="bg-white rounded-2xl p-7 shadow-sm border border-gray-100">
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="flex items-center gap-4">
-            <div class="w-8 h-8 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
-              <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-              </svg>
-            </div>
-            <div>
-              <h3 class="font-semibold text-gray-900">이메일</h3>
-              <a href="mailto:yej431@gmail.com" class="text-gray-600 hover:text-gray-900 transition-colors text-sm">
-                yej431@gmail.com
-              </a>
-            </div>
-          </div>
-          <div class="flex items-center gap-4">
-            <div class="w-8 h-8 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
-              <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-              </svg>
-            </div>
-            <div>
-              <h3 class="font-semibold text-gray-900">전화번호</h3>
-              <a href="tel:010-3371-5287" class="text-gray-600 hover:text-gray-900 transition-colors text-sm">
-                010-3371-5287
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </section>
 
   <!-- 맨 위로 이동 버튼 -->
