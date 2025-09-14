@@ -34,26 +34,10 @@ npm run build
 ### 2. 파일 업로드
 빌드된 파일들(`build/` 폴더)을 AWS 서버의 `/var/www/html/` 디렉토리로 업로드합니다.
 
-### 3. Nginx 설정
-`nginx.conf` 파일을 참고하여 nginx 설정을 구성합니다.
-
-```bash
-# nginx 설정 파일 복사
-sudo cp nginx.conf /etc/nginx/sites-available/srdomain.org
-
-# 심볼릭 링크 생성
-sudo ln -s /etc/nginx/sites-available/srdomain.org /etc/nginx/sites-enabled/
-
-# nginx 설정 테스트
-sudo nginx -t
-
-# nginx 재시작
-sudo systemctl restart nginx
-```
-
-### 4. 도메인 설정
-- `srdomain.org`가 AWS 서버를 가리키도록 DNS 설정
-- SSL 인증서 설정 (Let's Encrypt 권장)
+### 3. AWS에서 nginx 설정
+- nginx에서 `srdomain.org` 도메인 설정
+- 정적 파일 서빙 설정
+- SSL 인증서 설정 (선택사항)
 
 ## 프로젝트 구조
 
