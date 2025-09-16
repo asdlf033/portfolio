@@ -1,6 +1,0 @@
-{
-  "bucketName": "your-portfolio-bucket",
-  "region": "ap-northeast-2",
-  "cloudFrontDistributionId": "your-distribution-id",
-  "domainName": "your-domain.com"
-}
