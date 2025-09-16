@@ -25,7 +25,7 @@
       title: 'RAG 기반 회의 분석 시스템',
       summary: '회의 자료를 업로드하면 요약, 키워드, 발언 비중, 감성 등 핵심 정보를 분석하는 웹 애플리케이션. TXT/DOC/MP3/WAV/MP4 파일 지원, 비동기 처리, 히스토리 관리 및 회의록 다운로드 기능을 제공합니다.',
       stack: ['SvelteKit', 'Node.js', 'Express', 'Ollama', 'OpenAI Whisper', 'JavaScript', 'CSS'],
-      links: { repo:'https://github.com/tlzbfl001/RagMeetingAnalyzer', demo:'https://srdomain.org/rag-system/' }
+      links: { repo:'https://github.com/tlzbfl001/RagMeetingAnalyzer'}
     }
   ];
 
@@ -84,7 +84,6 @@
       issuer: '한국생산성본부',
       year: '2019'
     },
-    
   ];
 </script>
 
