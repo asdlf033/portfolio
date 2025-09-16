@@ -55,7 +55,7 @@
     {
       role: '디자인/인쇄 담당',
       company: '거산광고인쇄',
-      period: '2016.08 - 2020.12',
+      period: '2018.08 - 2020.12',
       description: '광고 디자인 및 인쇄 업무 담당. 로고 디자인, 인쇄 품질 관리 및 고객 서비스 제공.'
     }
   ];
@@ -82,7 +82,12 @@
     {
       name: 'ITQ 자격증',
       issuer: '한국생산성본부',
-      year: '2018'
+      year: '2019'
+    },
+    {
+      name: '그래픽기술자격 일러스트 1급',
+      issuer: '한국생산성본부',
+      year: '2019'
     }
   ];
 </script>
@@ -123,8 +128,8 @@
             </p>
             <div class="flex items-center gap-6">
               <div class="flex items-center gap-3">
-                <div class="w-6 h-6 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
-                  <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="w-5.5 h-5.5 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
+                  <svg class="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
                 </div>
@@ -133,8 +138,8 @@
                 </a>
               </div>
               <div class="flex items-center gap-3">
-                <div class="w-6 h-6 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
-                  <svg class="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="w-5.5 h-5.5 bg-white border border-emerald-200 rounded-full flex items-center justify-center">
+                  <svg class="w-3.5 h-3.5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                   </svg>
                 </div>
