@@ -42,7 +42,7 @@
   const experience = [
     {
       role: '모바일 앱 개발자',
-      company: '텔트론',
+      company: '아이트론',
       period: '2025.05.12 - 2025.09.12',
       description: 'ESP32 센서 기반 IoT 모니터링 애플리케이션 개발. Composable 아키텍처를 활용한 안드로이드 앱 개발, 실시간 센서 데이터 처리 및 상태 관리 시스템 구현.'
     },
