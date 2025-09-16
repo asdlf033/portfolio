@@ -3,6 +3,6 @@ services:
   portfolio:
     build: .
     ports:
-      - "80:80"
+      - "8080:80"
     restart: unless-stopped
     container_name: portfolio-container
