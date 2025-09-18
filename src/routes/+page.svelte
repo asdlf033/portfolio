@@ -13,19 +13,19 @@
       title: '헬스케어 통합 관리 플랫폼',
       summary: '종합 건강관리 애플리케이션. 안드로이드 플랫폼 개발, 헬스커넥트 연동을 통한 생체 데이터 수집 및 분석, 실시간 건강 모니터링 및 개인화된 운동/영양 추천 시스템을 제공합니다.',
       stack: ['Kotlin', 'Swift', 'Java', 'Spring Boot', 'AWS', 'Health Connect', 'Firebase'],
-      links: { repo:'https://github.com/tlzbfl001/HealthCareApp' }
+      links: { repo:'https://github.com/asdlf033/HealthCareApp' }
     },
     {
       title: 'IoT 센서 기반 상태관리 시스템',
       summary: 'ESP32 센서 데이터 기반 실시간 모니터링 애플리케이션. Composable 아키텍처를 활용한 모듈화된 UI, 실시간 센서 데이터 수집 및 분석, API 연동을 통한 원격 상태 관리 및 알림 시스템을 구현했습니다.',
       stack: ['Kotlin', 'Composable', 'Jetpack Compose', 'ESP32', 'REST API', 'WebSocket', 'SQLite'],
-      links: { repo:'https://github.com/tlzbfl001/MonitoringApp' }
+      links: { repo:'https://github.com/asdlf033/MonitoringApp' }
     },
     {
       title: 'RAG 기반 회의 분석 시스템',
       summary: '회의 자료를 업로드하면 요약, 키워드, 발언 비중, 감성 등 핵심 정보를 분석하는 웹 애플리케이션. TXT/DOC/MP3/WAV/MP4 파일 지원, 비동기 처리, 히스토리 관리 및 회의록 다운로드 기능을 제공합니다.',
       stack: ['SvelteKit', 'Node.js', 'Express', 'Ollama', 'OpenAI Whisper', 'JavaScript', 'CSS'],
-      links: { repo:'https://github.com/tlzbfl001/RagMeetingAnalyzer'}
+      links: { repo:'https://github.com/asdlf033/RagMeetingAnalyzer'}
     }
   ];
 
