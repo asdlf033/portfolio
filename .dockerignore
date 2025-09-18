@@ -1,0 +1,12 @@
+node_modules
+.git
+.gitignore
+Dockerfile
+npm-debug.log
+.yarn
+.pnpm-store
+.vscode
+build
+.env
+**/.svelte-kit
+**/.turbo
